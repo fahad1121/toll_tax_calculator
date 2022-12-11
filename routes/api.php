@@ -18,5 +18,4 @@ use Illuminate\Support\Facades\Route;
 //Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //    return $request->user();
 //});
-    Route::post('entry_for_vehicle', [TaxController::class, 'saveVehicleInfo']);
-    Route::post('calculate_toll',[TaxController::class,'calculateTax']);
+

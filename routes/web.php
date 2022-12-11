@@ -17,4 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('entry_for_vehicle',[TaxController::class,'saveVehicleInfo']);
+Route::post('entry_for_vehicle', [TaxController::class, 'saveVehicleInfo']);
+Route::post('calculate_toll',[TaxController::class,'calculateTax']);
